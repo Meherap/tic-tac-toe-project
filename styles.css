@@ -1,0 +1,16 @@
+/* Set background color to black and text color to white */
+body {
+    background-color: black;
+    color: white; /* Set text color to white */
+}
+
+.important {
+    color: red; /* This will override the text color for elements that are labeled with the class attribute named "important" */
+}
+
+/* Set a pink border for all images */
+img {
+    border: 2px solid pink;
+    padding: 5px;
+    border-radius: 10px;
+}
